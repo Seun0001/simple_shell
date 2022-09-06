@@ -15,4 +15,4 @@ char *read_line(int *i_eof)
 	*i_eof = getline(&input, &bufsize, stdin);
 
 	return (input);
-
+}
