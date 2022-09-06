@@ -108,4 +108,4 @@ void free_line_list(line_list **head)
 		}
 		*head = NULL;
 	}
-
+}
