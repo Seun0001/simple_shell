@@ -95,4 +95,4 @@ access(2), chdir(2), execve(2), _exit(2), exit(3), fflush(3), fork(2), free(3), 
 Sodash\fR takes basic functionality of the \fBsh\fR shell. This man page is based on the man page bash(1)
 
 .SH AUTHORS
-Oluwaseun Afolabi and Egbe Marvelous
+Oluwaseun Afolabi and Marvelous Egbe
