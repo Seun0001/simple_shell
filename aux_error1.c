@@ -118,14 +118,14 @@ char *error_not_found(data_shell *datash)
  */
 char *error_exit_shell(data_shell *datash)
 {
-	int length;
-	char *error;
-	char *ver_str;
+ int length;
+ char *error;
+ char *ver_str;
 
-	ver_str = aux_itoa(datash->counter);
-	length = _strlen(datash->av[0]) + _strlen(ver_str);
-	length += _strlen(datash->args[0]) + _strlen(datash->args[1]) + 23;
-	error = malloc(sizeof(char) * (length + 1));
+ ver_str = aux_itoa(datash->counter);
+ length = _strlen(datash->av[0]) + _strlen(ver_str);
+ length += _strlen(datash->args[0]) + _strlen(datash->args[1]) + 23;
+ error = malloc(sizeof(char) * (length + 1));
 	if (error == 0)
 	{
 		free(ver_str);
