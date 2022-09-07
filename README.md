@@ -1,2 +1,3 @@
-simple_shell
-=============
+ALX COLLABORATORS PROJECT
+
+# SHELL
